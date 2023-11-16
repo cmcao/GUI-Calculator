@@ -18,6 +18,7 @@ def button_press(num):
 def equals():
     global equation_text
 
+
     try:
         total = str(eval(equation_text))
         equation_label.set(total)
